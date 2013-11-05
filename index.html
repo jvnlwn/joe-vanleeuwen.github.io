@@ -1,0 +1,112 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>my website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="styles/0a1776b1.main.css">
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="wrapper">
+
+            <h1>in development</h1>
+
+            <hr>
+            <hr>
+
+            <p>
+                Hey, I'm Joe VanLeeuwen. 
+                I'm in development. I like it. I do it. But most importantly, <span><strong>I</strong></span> am in development. 
+            </p>
+
+            <span class="v">V</span>
+            <span class="v">V</span>
+
+            <h3>Recent History</h3>
+
+            <div class="description"></div>
+
+            <div class="hide-overflow">
+                <div class="slider"></div>
+            </div>
+
+            <div class="selector">
+                <div class="mini-slider"></div>
+            </div>
+
+            <span class="v">V</span>
+            <span class="v">V</span>
+
+            <h3>More About Me</h3>
+
+            <p>
+                I recently graduated from a 3 month <a href="http://theironyard.com/education/academy/front-end-engineering/" target="_blank">Front End Engineering course</a> at <a href="http://theironyard.com/" target="_blank">The Iron Yard</a>. The work that you see here represents long hours plugging away at assignments for the course. I titled my final project 
+                <a href="http://joe-vanleeuwen.github.io/chess.js" target="_blank">chess.js</a> and I am most satisfied with this endeavor.
+                <br>
+                <br>
+                Besides hacking away at something that is way over my head, I also 
+                enjoy running, especially trail running. My last big race was the 
+                <a href="http://belmonteraces.com/" target="_blank">Bel Monte 50 Miler</a> back in April of '13. I hope to run a 100 miler some day!
+            </p>
+
+        </div>
+
+        <!-- info template for work description -->
+
+        <script type="text/template" id="description">
+
+            <p>
+                <%= project.info %>
+                </br>
+                <a href= <%= project.link %> > <%= project.link %> </a>
+            </p>
+
+        </script>
+
+        <!-- image template for large preview -->
+
+        <script type="text/template" id="image">
+
+            <div class="showcase">
+                <img src= <%= project.image %> >
+            </div>
+
+        </script>
+
+        <!-- thumbnail template for work selection -->
+
+        <script type="text/template" id="selector">
+
+                <img src= <%= project.image %> >
+
+        </script>
+
+
+        <script src="scripts/ff5cede5.vendor.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <script src="scripts/7bc593f6.main.js"></script>
+
+        <script src="scripts/d41d8cd9.coffee.js"></script>
+</body>
+</html>
