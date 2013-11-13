@@ -6,12 +6,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>my website</title>
+        <title>Joe VanLeeuwen</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="styles/0a1776b1.main.css">
+        <link rel="stylesheet" href="styles/f0944516.main.css">
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -61,16 +60,30 @@
                 <a href="http://belmonteraces.com/" target="_blank">Bel Monte 50 Miler</a> back in April of '13. I hope to run a 100 miler some day!
             </p>
 
+            <!-- <hr> -->
+
+            <div class="contact">
+                <a href="https://github.com/joe-vanleeuwen" target="_blank">GitHub</a> | 
+                <a href="mailto:jvnlwn@gmail.com">Email</a> |  
+                <a href="https://twitter.com/jvnlwn">Twitter</a>
+            </div>
+
         </div>
 
         <!-- info template for work description -->
+
+<!--                 Take a gander at this <a href= <%= project.siteLink %> >project</a>
+                 or dig a little deeper 
+                <a href= <%= project.gitLink %> >on GitHub</a>. -->
 
         <script type="text/template" id="description">
 
             <p>
                 <%= project.info %>
                 </br>
-                <a href= <%= project.link %> > <%= project.link %> </a>
+                <a href= <%= project.siteLink %> >Take a gander</a> at this project or
+                <a href= <%= project.gitLink %> >dig a little deeper</a> 
+                 on GitHub.
             </p>
 
         </script>
@@ -80,7 +93,7 @@
         <script type="text/template" id="image">
 
             <div class="showcase">
-                <img src= <%= project.image %> >
+                <a href= <%= project.siteLink %> ><img src= <%= project.image %> ></a>
             </div>
 
         </script>
@@ -106,7 +119,7 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <script src="scripts/7bc593f6.main.js"></script>
+        <script src="scripts/ae1c4479.main.js"></script>
 
         <script src="scripts/d41d8cd9.coffee.js"></script>
 </body>
